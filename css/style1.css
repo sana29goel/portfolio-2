@@ -1,0 +1,59 @@
+.wrapper{
+    margin-top: 0px;
+}
+.wrapper h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+    color:darkslategray;
+}
+.team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+}
+.team .teammember{
+    background: black;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 80%;
+    padding: 20px;
+    line-height: 20px;
+    color: thistle;
+    position: relative;
+}
+.team .teammember h3{
+    color: darkseagreen;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.team .teammember h3 a{
+    text-decoration: none;
+    color: darkseagreen;
+    
+}
+.team .teammember p.role{
+    color: palevioletred;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.team .teammember .teamimage{
+    background: plum;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.team .teammember .teamimage img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 50%;
+}
